@@ -1,0 +1,27 @@
+CRITICAL - 2022-05-05 22:43:01 --> Unclosed '{' on line 31
+#0 C:\xampp\htdocs\veatfresh\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\veatfresh\system\Common.php(1089): CodeIgniter\View\View->render('account', Array, true)
+#2 C:\xampp\htdocs\veatfresh\app\Controllers\Home.php(302): view('account', Array)
+#3 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\Home->my_account()
+#4 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 22:43:01 --> Unclosed '{' on line 31
+#0 C:\xampp\htdocs\veatfresh\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\veatfresh\system\Common.php(1089): CodeIgniter\View\View->render('account', Array, true)
+#2 C:\xampp\htdocs\veatfresh\app\Controllers\Home.php(302): view('account', Array)
+#3 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\Home->my_account()
+#4 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-05 22:43:01 --> Unclosed '{' on line 31
+#0 C:\xampp\htdocs\veatfresh\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\veatfresh\system\Common.php(1089): CodeIgniter\View\View->render('account', Array, true)
+#2 C:\xampp\htdocs\veatfresh\app\Controllers\Home.php(302): view('account', Array)
+#3 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\Home->my_account()
+#4 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

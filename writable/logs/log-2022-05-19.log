@@ -1,0 +1,53 @@
+CRITICAL - 2022-05-19 08:12:34 --> Undefined variable: adminData
+#0 F:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\xampp\\htdocs...', 154, Array)
+#1 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->add_to_cart()
+#2 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 08:38:45 --> Undefined index: user_login
+#0 F:\xampp\htdocs\veatfreshlive\app\Controllers\Cart.php(92): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\xampp\\htdocs...', 92, Array)
+#1 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\Cart->index()
+#2 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 09:16:42 --> Undefined variable: varient_id
+#0 F:\xampp\htdocs\veatfreshlive\app\Controllers\Home.php(137): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\xampp\\htdocs...', 137, Array)
+#1 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\Home->do_login()
+#2 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 09:17:33 --> Too few arguments to function get_total_carts(), 1 passed in F:\xampp\htdocs\veatfreshlive\app\Views\includes\navbar.php on line 145 and exactly 2 expected
+#0 F:\xampp\htdocs\veatfreshlive\app\Views\includes\navbar.php(145): get_total_carts('1407')
+#1 F:\xampp\htdocs\veatfreshlive\system\View\View.php(210): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\veatfreshlive\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\xampp\htdocs\veatfreshlive\system\Common.php(1089): CodeIgniter\View\View->render('includes/navbar', Array, true)
+#4 F:\xampp\htdocs\veatfreshlive\app\Views\includes\layout.php(12): view('includes/navbar')
+#5 F:\xampp\htdocs\veatfreshlive\system\View\View.php(210): include('F:\\xampp\\htdocs...')
+#6 F:\xampp\htdocs\veatfreshlive\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 F:\xampp\htdocs\veatfreshlive\system\Common.php(1089): CodeIgniter\View\View->render('includes/layout', Array, true)
+#8 F:\xampp\htdocs\veatfreshlive\app\Helpers\render_helper.php(12): view('includes/layout', Array, Array)
+#9 F:\xampp\htdocs\veatfreshlive\app\Controllers\Home.php(90): render_frontend('home', Array)
+#10 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#11 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 F:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-19 09:18:50 --> Too few arguments to function get_total_carts(), 1 passed in F:\xampp\htdocs\veatfreshlive\app\Views\includes\navbar.php on line 145 and exactly 2 expected
+#0 F:\xampp\htdocs\veatfreshlive\app\Views\includes\navbar.php(145): get_total_carts('1407')
+#1 F:\xampp\htdocs\veatfreshlive\system\View\View.php(210): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\veatfreshlive\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\xampp\htdocs\veatfreshlive\system\Common.php(1089): CodeIgniter\View\View->render('includes/navbar', Array, true)
+#4 F:\xampp\htdocs\veatfreshlive\app\Views\includes\layout.php(12): view('includes/navbar')
+#5 F:\xampp\htdocs\veatfreshlive\system\View\View.php(210): include('F:\\xampp\\htdocs...')
+#6 F:\xampp\htdocs\veatfreshlive\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 F:\xampp\htdocs\veatfreshlive\system\Common.php(1089): CodeIgniter\View\View->render('includes/layout', Array, true)
+#8 F:\xampp\htdocs\veatfreshlive\app\Helpers\render_helper.php(12): view('includes/layout', Array, Array)
+#9 F:\xampp\htdocs\veatfreshlive\app\Controllers\Home.php(90): render_frontend('home', Array)
+#10 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#11 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 F:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

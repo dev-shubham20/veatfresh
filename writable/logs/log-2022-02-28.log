@@ -1,0 +1,23 @@
+CRITICAL - 2022-02-28 00:00:29 --> Undefined variable: categories
+#0 F:\xampp\htdocs\veatfresh_web\app\Views\includes\navbar.php(169): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\xampp\\htdocs...', 169, Array)
+#1 F:\xampp\htdocs\veatfresh_web\system\View\View.php(210): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\veatfresh_web\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 F:\xampp\htdocs\veatfresh_web\system\Common.php(1089): CodeIgniter\View\View->render('includes/navbar', Array, true)
+#4 F:\xampp\htdocs\veatfresh_web\app\Views\includes\layout.php(12): view('includes/navbar')
+#5 F:\xampp\htdocs\veatfresh_web\system\View\View.php(210): include('F:\\xampp\\htdocs...')
+#6 F:\xampp\htdocs\veatfresh_web\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 F:\xampp\htdocs\veatfresh_web\system\Common.php(1089): CodeIgniter\View\View->render('includes/layout', Array, true)
+#8 F:\xampp\htdocs\veatfresh_web\app\Helpers\render_helper.php(12): view('includes/layout', Array, Array)
+#9 F:\xampp\htdocs\veatfresh_web\app\Controllers\Home.php(46): render_frontend('home', Array)
+#10 F:\xampp\htdocs\veatfresh_web\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#11 F:\xampp\htdocs\veatfresh_web\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 F:\xampp\htdocs\veatfresh_web\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 F:\xampp\htdocs\veatfresh_web\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-02-28 00:41:18 --> Undefined property: App\Controllers\Home::$products
+#0 F:\xampp\htdocs\veatfresh_web\app\Controllers\Home.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'F:\\xampp\\htdocs...', 48, Array)
+#1 F:\xampp\htdocs\veatfresh_web\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 F:\xampp\htdocs\veatfresh_web\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 F:\xampp\htdocs\veatfresh_web\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh_web\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

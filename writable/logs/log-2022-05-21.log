@@ -1,0 +1,140 @@
+ERROR - 2022-05-21 12:35:35 --> Error connecting to the database: Unknown database 'kronicke_veatfresh'
+CRITICAL - 2022-05-21 12:35:35 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'kronicke_veatfresh'
+#0 C:\xampp\htdocs\veatfreshlive\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\veatfreshlive\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\veatfreshlive\app\Models\CrudModel.php(117): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\veatfreshlive\app\Libraries\MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 C:\xampp\htdocs\veatfreshlive\app\Controllers\Home.php(43): App\Libraries\MenuTree->get_categories()
+#5 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#6 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-21 13:48:02 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\veatfreshlive\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\veatfreshlive\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\veatfreshlive\system\Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#3 C:\xampp\htdocs\veatfreshlive\app\Controllers\Checkout.php(89): view('checkout', Array)
+#4 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\Checkout->index()
+#5 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-21 17:36:37 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-21 17:36:38 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-21 17:36:38 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-21 18:25:44 --> Unclosed '{' on line 11
+#0 C:\xampp\htdocs\veatfreshlive\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\veatfreshlive\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 18:25:44 --> Unclosed '{' on line 11
+#0 C:\xampp\htdocs\veatfreshlive\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\veatfreshlive\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 18:25:44 --> Unclosed '{' on line 11
+#0 C:\xampp\htdocs\veatfreshlive\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\veatfreshlive\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 19:10:34 --> Undefined variable $db
+#0 C:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(323): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 323)
+#1 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#2 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 19:24:07 --> Undefined variable $responseArr
+#0 C:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(464): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 464)
+#1 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#2 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 19:36:24 --> Undefined variable $responseArr
+#0 C:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(465): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 465)
+#1 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#2 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 19:39:08 --> Undefined variable $responseArr
+#0 C:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(450): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 450)
+#1 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#2 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:39:15 --> Undefined variable $responseArr
+#0 C:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(464): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 464)
+#1 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#2 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:43:38 --> Undefined variable $responseArr
+#0 C:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(464): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 464)
+#1 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#2 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:52:28 --> Undefined variable $responseArr
+#0 C:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(464): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 464)
+#1 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#2 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-21 23:27:30 --> Column 'tax_amount' cannot be null
+CRITICAL - 2022-05-21 23:27:30 --> Column 'tax_amount' cannot be null
+#0 C:\xampp\htdocs\veatfreshlive\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\veatfreshlive\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\veatfreshlive\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\veatfreshlive\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\veatfreshlive\app\Models\CrudModel.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(423): App\Models\CrudModel->insertItem('orders', Array)
+#6 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#7 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#8 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-21 23:29:06 --> Column 'instructions' cannot be null
+CRITICAL - 2022-05-21 23:29:06 --> Column 'instructions' cannot be null
+#0 C:\xampp\htdocs\veatfreshlive\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 C:\xampp\htdocs\veatfreshlive\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 C:\xampp\htdocs\veatfreshlive\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 C:\xampp\htdocs\veatfreshlive\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 C:\xampp\htdocs\veatfreshlive\app\Models\CrudModel.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(423): App\Models\CrudModel->insertItem('orders', Array)
+#6 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#7 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#8 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-21 23:30:10 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#1 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#2 C:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

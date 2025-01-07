@@ -1,0 +1,198 @@
+CRITICAL - 2022-04-12 15:53:15 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:54:14 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:16 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:18 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:18 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:19 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:19 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:19 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:19 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:19 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:20 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:20 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:20 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:20 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:20 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:20 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:20 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:21 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:21 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:21 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:21 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 15:55:21 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 16:01:43 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 16:06:33 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 16:24:40 --> Undefined variable: totalTime
+#0 F:\xampp\htdocs\veatfresh\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'F:\\xampp\\htdocs...', 40, Array)
+#1 F:\xampp\htdocs\veatfresh\system\Debug\Toolbar.php(501): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\veatfresh\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 F:\xampp\htdocs\veatfresh\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 F:\xampp\htdocs\veatfresh\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-12 16:24:48 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\AjaxController.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 93, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\AjaxController->check_phone_is_available()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 16:46:25 --> syntax error, unexpected '{'
+#0 F:\xampp\htdocs\veatfresh\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('AjaxController/...')
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('AjaxController/...')
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-12 16:56:06 --> Trying to get property 'id' of non-object
+#0 F:\xampp\htdocs\veatfresh\app\Controllers\Home.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'F:\\xampp\\htdocs...', 204, Array)
+#1 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\Home->do_register()
+#2 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 F:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

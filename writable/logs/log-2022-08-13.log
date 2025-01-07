@@ -1,0 +1,87 @@
+CRITICAL - 2022-08-13 11:46:54 --> Call to a member function query() on null
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include()
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#3 /home/a2r9jiz6dv0x/public_html/app/Controllers/Checkout.php(91): view('checkout', Array)
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-13 13:03:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include()
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#3 /home/a2r9jiz6dv0x/public_html/app/Controllers/Checkout.php(91): view('checkout', Array)
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-13 13:04:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include()
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#3 /home/a2r9jiz6dv0x/public_html/app/Controllers/Checkout.php(91): view('checkout', Array)
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-13 13:04:36 --> syntax error, unexpected '$promocode' (T_VARIABLE), expecting ';' or ','
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#2 /home/a2r9jiz6dv0x/public_html/app/Controllers/Checkout.php(91): view('checkout', Array)
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-13 13:05:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include()
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#3 /home/a2r9jiz6dv0x/public_html/app/Controllers/Checkout.php(91): view('checkout', Array)
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-13 13:06:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include()
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#3 /home/a2r9jiz6dv0x/public_html/app/Controllers/Checkout.php(91): view('checkout', Array)
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-13 13:07:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include()
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#3 /home/a2r9jiz6dv0x/public_html/app/Controllers/Checkout.php(91): view('checkout', Array)
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-13 13:07:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include()
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#3 /home/a2r9jiz6dv0x/public_html/app/Controllers/Checkout.php(91): view('checkout', Array)
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-08-13 13:57:17 --> Column 'promo_discount' cannot be null
+ERROR - 2022-08-13 13:57:32 --> Column 'promo_discount' cannot be null
+ERROR - 2022-08-13 13:57:47 --> Column 'promo_discount' cannot be null
+ERROR - 2022-08-13 13:57:57 --> Column 'promo_discount' cannot be null
+ERROR - 2022-08-13 14:00:15 --> Column 'promo_discount' cannot be null
+ERROR - 2022-08-13 14:02:57 --> Column 'promo_discount' cannot be null
+ERROR - 2022-08-13 14:03:04 --> Column 'promo_discount' cannot be null
+ERROR - 2022-08-13 14:03:17 --> Column 'promo_discount' cannot be null

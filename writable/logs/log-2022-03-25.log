@@ -1,0 +1,33 @@
+CRITICAL - 2022-03-25 06:28:05 --> Class 'App\Controllers\MenuTree' not found
+#0 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(802): App\Controllers\AjaxController->__construct()
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-25 08:01:59 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 154, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->do_register()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-25 08:02:31 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(154): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 154, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->do_register()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-25 08:03:42 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(156): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 156, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->do_register()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-25 10:35:50 --> Call to a member function send() on string
+#0 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->do_register()
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

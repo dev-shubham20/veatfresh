@@ -1,0 +1,10 @@
+CRITICAL - 2024-12-21 23:10:59 --> syntax error, unexpected '<'
+#0 /home/a2r9jiz6dv0x/public_html/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/home/a2r9jiz6d...')
+#1 /home/a2r9jiz6dv0x/public_html/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

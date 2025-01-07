@@ -1,0 +1,11 @@
+CRITICAL - 2024-02-04 11:53:29 --> A non-numeric value encountered
+#0 /home/a2r9jiz6dv0x/public_html/app/Views/cart.php(202): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', '/home/a2r9jiz6d...', 202, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include('/home/a2r9jiz6d...')
+#2 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Cart.php(122): view('cart', Array)
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Cart->index()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

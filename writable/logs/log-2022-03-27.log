@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-27 09:28:05 --> Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP)
+#0 /home3/kronicke/public_html/veatfresh/app/Views/home.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/home3/kronicke...', 91, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Helpers/render_helper.php(10): view('home', Array, Array)
+#5 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(93): render_frontend('home', Array)
+#6 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#7 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

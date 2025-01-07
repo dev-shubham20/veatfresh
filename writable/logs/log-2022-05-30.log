@@ -1,0 +1,1209 @@
+CRITICAL - 2022-05-30 08:56:13 --> Undefined variable: selected_category
+#0 /home3/kronicke/public_html/veatfresh/app/Views/includes/navbar.php(345): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home3/kronicke...', 345, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('includes/navbar', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Views/includes/layout.php(12): view('includes/navbar')
+#5 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#6 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('includes/layout', Array, true)
+#8 /home3/kronicke/public_html/veatfresh/app/Helpers/render_helper.php(8): view('includes/layout', Array, Array)
+#9 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(90): render_frontend('home', Array)
+#10 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#11 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-instagram-...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-facebook-w...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-twitter-wh...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:49 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:08:50 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-instagram-...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-facebook-w...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-twitter-wh...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:16 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:17 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:17 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:17 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:17 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:17 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-twitter-wh...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-facebook-w...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-instagram-...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:33 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:14:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-twitter-wh...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-instagram-...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-facebook-w...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:34 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 09:16:43 --> Trying to get property 'product_id' of non-object
+#0 /home3/kronicke/public_html/veatfresh/app/Views/home.php(193): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home3/kronicke...', 193, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Helpers/render_helper.php(10): view('home', Array, Array)
+#5 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(90): render_frontend('home', Array)
+#6 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#7 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-30 09:17:14 --> Trying to get property 'product_id' of non-object
+#0 /home3/kronicke/public_html/veatfresh/app/Views/home.php(194): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home3/kronicke...', 194, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Helpers/render_helper.php(10): view('home', Array, Array)
+#5 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(90): render_frontend('home', Array)
+#6 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#7 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-facebook-w...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-instagram-...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-twitter-wh...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:41 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:42 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:42 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:42 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:42 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:42 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:42 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:42 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 10:16:42 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:02 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:02 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:02 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:02 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:02 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:02 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:02 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:02 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:02 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:03 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:03 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:03 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:03 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:03 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:03 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-twitter-wh...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:03 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-facebook-w...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:03 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-instagram-...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:12:03 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:35 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-facebook-w...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-instagram-...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'theme', 'icons', 'icon-twitter-wh...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 12:19:36 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 119, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

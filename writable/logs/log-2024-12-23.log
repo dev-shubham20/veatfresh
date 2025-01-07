@@ -1,0 +1,12 @@
+CRITICAL - 2024-12-23 23:20:56 --> Class 'App\Controllers\Api' not found
+#0 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-12-23 23:26:01 --> Class 'App\Controllers\Api' not found
+#0 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

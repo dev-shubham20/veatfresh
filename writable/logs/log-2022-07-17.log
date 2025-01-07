@@ -1,0 +1,66 @@
+CRITICAL - 2022-07-17 11:09:01 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Views/checkout.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 71, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Controllers/Checkout.php(91): view('checkout', Array)
+#5 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#6 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-17 11:26:19 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Views/checkout.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 257, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Controllers/Checkout.php(91): view('checkout', Array)
+#5 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#6 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-17 11:26:26 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Views/checkout.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 257, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Controllers/Checkout.php(91): view('checkout', Array)
+#5 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#6 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-17 11:26:31 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Views/checkout.php(257): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 257, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Controllers/Checkout.php(91): view('checkout', Array)
+#5 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#6 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-17 11:30:30 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Views/cart.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 69, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Controllers/Cart.php(88): view('cart', Array)
+#5 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Cart->index()
+#6 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-07-17 11:34:46 --> Undefined offset: 0
+#0 /home3/kronicke/public_html/veatfresh/app/Views/cart.php(341): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home3/kronicke...', 341, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Controllers/Cart.php(88): view('cart', Array)
+#5 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Cart->index()
+#6 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#7 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

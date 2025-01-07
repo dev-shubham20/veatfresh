@@ -1,0 +1,21 @@
+CRITICAL - 2022-05-17 17:22:22 --> Undefined index: user_cart_data
+#0 F:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\xampp\\htdocs...', 152, Array)
+#1 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->add_to_cart()
+#2 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-17 17:23:14 --> Undefined index: user_cart_data
+#0 F:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\xampp\\htdocs...', 152, Array)
+#1 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->add_to_cart()
+#2 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-17 17:26:12 --> Undefined index: user_cart_data
+#0 F:\xampp\htdocs\veatfreshlive\app\Controllers\AjaxController.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'F:\\xampp\\htdocs...', 152, Array)
+#1 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(825): App\Controllers\AjaxController->add_to_cart()
+#2 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 F:\xampp\htdocs\veatfreshlive\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 F:\xampp\htdocs\veatfreshlive\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

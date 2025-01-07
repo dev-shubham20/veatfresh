@@ -1,0 +1,14 @@
+CRITICAL - 2022-03-14 11:51:57 --> Trying to get property 'product_ids' of non-object
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home3/kronicke...', 52, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 11:52:34 --> Trying to get property 'product_ids' of non-object
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home3/kronicke...', 53, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

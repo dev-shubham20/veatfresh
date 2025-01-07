@@ -1,0 +1,9 @@
+[20-Aug-2020 15:20:52 UTC] PHP Notice:  Undefined index: user in /home/a2r9jiz6dv0x/public_html/admin/public/db-operation.php on line 7
+[20-Aug-2020 20:50:52 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/a2r9jiz6dv0x/public_html/admin/public/db-operation.php on line 11
+[20-Aug-2020 20:50:52 Asia/Kolkata] PHP Warning:  Illegal string offset 'permissions' in /home/a2r9jiz6dv0x/public_html/admin/includes/custom-functions.php on line 404
+[05-Sep-2020 08:01:32 UTC] PHP Notice:  Undefined index: user in /home/a2r9jiz6dv0x/public_html/admin/public/db-operation.php on line 7
+[05-Sep-2020 13:31:32 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/a2r9jiz6dv0x/public_html/admin/public/db-operation.php on line 11
+[05-Sep-2020 13:31:32 Asia/Kolkata] PHP Warning:  Illegal string offset 'permissions' in /home/a2r9jiz6dv0x/public_html/admin/includes/custom-functions.php on line 404
+[06-Jul-2022 10:29:31 UTC] PHP Notice:  Undefined index: user in /home/a2r9jiz6dv0x/public_html/admin/public/db-operation.php on line 7
+[06-Jul-2022 15:59:31 Asia/Kolkata] PHP Notice:  Undefined index: id in /home/a2r9jiz6dv0x/public_html/admin/public/db-operation.php on line 11
+[06-Jul-2022 15:59:31 Asia/Kolkata] PHP Warning:  Illegal string offset 'permissions' in /home/a2r9jiz6dv0x/public_html/admin/includes/custom-functions.php on line 404

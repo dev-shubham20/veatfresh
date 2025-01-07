@@ -1,0 +1,28 @@
+CRITICAL - 2022-07-03 19:30:00 --> Undefined index: tax
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/AjaxController.php(633): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/kronicke...', 633, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\AjaxController->update_cart_increase()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-03 19:31:14 --> Undefined index: tax
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/AjaxController.php(633): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/kronicke...', 633, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\AjaxController->update_cart_increase()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-03 19:33:32 --> Undefined index: tax
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/AjaxController.php(641): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/kronicke...', 641, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\AjaxController->update_cart_increase()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-03 19:34:43 --> Undefined index: tax
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/AjaxController.php(547): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/kronicke...', 547, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\AjaxController->update_cart_decrease()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,13 @@
+ERROR - 2023-05-22 15:55:32 --> Error connecting to the database: Too many connections
+CRITICAL - 2023-05-22 15:55:32 --> Unable to connect to the database.
+Main connection [MySQLi]: Too many connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Home.php(49): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Home->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

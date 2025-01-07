@@ -1,0 +1,28 @@
+CRITICAL - 2022-04-29 18:07:48 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home3/kronicke/public_html/veatfresh/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('AjaxController/...')
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('AjaxController/...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 18:16:15 --> Undefined property: App\Controllers\Home::$cart_tbl
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', '/home3/kronicke...', 141, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->do_login()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 18:17:18 --> Trying to get property 'id' of non-object
+#0 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(183): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', '/home3/kronicke...', 183, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->do_login()
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-29 22:30:04 --> Undefined array key "user_cart_data"
+#0 C:\xampp\htdocs\veatfresh\app\Controllers\Cart.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 125)
+#1 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(825): App\Controllers\Cart->index()
+#2 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#3 C:\xampp\htdocs\veatfresh\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\veatfresh\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

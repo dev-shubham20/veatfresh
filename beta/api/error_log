@@ -1,0 +1,22 @@
+[02-Jun-2020 15:59:27 UTC] PHP Notice:  Undefined index: type in /home/a2r9jiz6dv0x/public_html/admin/api/slider-images.php on line 37
+[02-Jun-2020 15:59:27 UTC] PHP Notice:  Undefined index:  in /home/a2r9jiz6dv0x/public_html/admin/api/slider-images.php on line 38
+[02-Jun-2020 16:01:40 UTC] PHP Notice:  Undefined offset: 0 in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 24
+[02-Jun-2020 16:04:17 UTC] PHP Notice:  Undefined offset: 0 in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 24
+[02-Jun-2020 21:49:17 Asia/Kolkata] PHP Warning:  Illegal string offset 'total' in /home/a2r9jiz6dv0x/public_html/admin/api/get-bootstrap-table-data.php on line 1038
+[02-Jun-2020 21:49:17 Asia/Kolkata] PHP Warning:  Illegal string offset 'id_quality' in /home/a2r9jiz6dv0x/public_html/admin/api/get-bootstrap-table-data.php on line 1050
+[02-Jun-2020 21:49:17 Asia/Kolkata] PHP Warning:  Illegal string offset 'image' in /home/a2r9jiz6dv0x/public_html/admin/api/get-bootstrap-table-data.php on line 1050
+[02-Jun-2020 21:49:17 Asia/Kolkata] PHP Warning:  Illegal string offset 'id_quality' in /home/a2r9jiz6dv0x/public_html/admin/api/get-bootstrap-table-data.php on line 1053
+[02-Jun-2020 21:49:17 Asia/Kolkata] PHP Warning:  Illegal string offset 'title' in /home/a2r9jiz6dv0x/public_html/admin/api/get-bootstrap-table-data.php on line 1054
+[02-Jun-2020 21:49:17 Asia/Kolkata] PHP Warning:  Illegal string offset 'description' in /home/a2r9jiz6dv0x/public_html/admin/api/get-bootstrap-table-data.php on line 1055
+[02-Jun-2020 16:54:58 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 88
+[02-Jun-2020 16:55:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 88
+[02-Jun-2020 17:13:05 UTC] PHP Notice:  Undefined variable: id_quality in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 96
+[02-Jun-2020 17:13:36 UTC] PHP Notice:  Undefined variable: id_quality in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 96
+[02-Jun-2020 17:13:41 UTC] PHP Warning:  unlink(../upload/alert/1591117985103.jpg): No such file or directory in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 163
+[03-Jun-2020 15:45:07 UTC] PHP Notice:  Undefined variable: id_quality in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 96
+[04-Jun-2020 17:37:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 24
+[04-Jun-2020 17:38:10 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 24
+[04-Jun-2020 17:46:01 UTC] PHP Notice:  Undefined variable: id_quality in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 99
+[04-Jun-2020 17:46:51 UTC] PHP Notice:  Undefined variable: id_quality in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 99
+[04-Jun-2020 17:49:09 UTC] PHP Notice:  Undefined variable: id_quality in /home/a2r9jiz6dv0x/public_html/admin/api/quality-images.php on line 99
+[05-Jun-2020 08:14:35 UTC] PHP Notice:  Undefined index: timeout in /home/a2r9jiz6dv0x/public_html/admin/api/get-bootstrap-table-data.php on line 14

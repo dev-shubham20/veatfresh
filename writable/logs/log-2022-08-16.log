@@ -1,0 +1,78 @@
+CRITICAL - 2022-08-16 07:56:30 --> syntax error, unexpected '}'
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('cart', Array, true)
+#2 /home/a2r9jiz6dv0x/public_html/app/Controllers/Cart.php(122): view('cart', Array)
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Cart->index()
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cart))
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-16 08:05:46 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 08:06:06 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 08:06:07 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 08:06:58 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 08:07:18 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-16 08:16:54 --> Undefined variable: val
+#0 /home/a2r9jiz6dv0x/public_html/app/Views/checkout.php(152): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/a2r9jiz6d...', 152, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include('/home/a2r9jiz6d...')
+#2 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('checkout', Array, true)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Checkout.php(91): view('checkout', Array)
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Checkout->index()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Checkout))
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-08-16 08:18:32 --> Column 'promo_discount' cannot be null
+CRITICAL - 2022-08-16 08:18:32 --> Column 'promo_discount' cannot be null
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/MySQLi/Connection.php(292): mysqli->query('INSERT INTO `or...', 0)
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `or...')
+#2 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `or...')
+#3 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `or...', Array, false)
+#4 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 /home/a2r9jiz6dv0x/public_html/app/Controllers/AjaxController.php(396): App\Models\CrudModel->insertItem('orders', Array)
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\AjaxController->do_place_order()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxController))
+#8 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-08-16 09:57:20 --> file_get_contents(/home/a2r9jiz6dv0x/public_html/writable/debugbar/debugbar_1660282125.json): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/a2r9jiz6d...', 80, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar/Collectors/History.php(80): file_get_contents('/home/a2r9jiz6d...')
+#2 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1660623996, 20)
+#3 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/a2r9jiz6dv0x/public_html/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/a2r9jiz6dv0x/public_html/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 18:21:53 --> file_get_contents(/home/a2r9jiz6dv0x/public_html/writable/debugbar/debugbar_1660637733.json): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/a2r9jiz6d...', 80, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar/Collectors/History.php(80): file_get_contents('/home/a2r9jiz6d...')
+#2 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1660654258, 20)
+#3 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/a2r9jiz6dv0x/public_html/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/a2r9jiz6dv0x/public_html/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-16 21:53:23 --> unlink(/home/a2r9jiz6dv0x/public_html/writable/debugbar/debugbar_1660663580.json): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/home/a2...', '/home/a2r9jiz6d...', 74, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar/Collectors/History.php(74): unlink('/home/a2r9jiz6d...')
+#2 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1660666945, 20)
+#3 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/a2r9jiz6dv0x/public_html/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/a2r9jiz6dv0x/public_html/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

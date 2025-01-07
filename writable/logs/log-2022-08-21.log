@@ -1,0 +1,232 @@
+CRITICAL - 2022-08-21 09:27:10 --> Undefined variable: totalTime
+#0 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar/Views/toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', '/home/a2r9jiz6d...', 40, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(501): include('/home/a2r9jiz6d...')
+#2 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 /home/a2r9jiz6dv0x/public_html/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 /home/a2r9jiz6dv0x/public_html/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#6 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-08-21 09:28:26 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:27 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:27 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:27 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:27 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:27 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:27 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:27 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:27 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:28 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:28 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:28 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:28 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:28 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:28:28 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:29 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-6.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:29 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-1.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:29 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-3.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:29 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-2.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:29 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-7.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:29 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-4.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:29 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'product-16-5.jp...')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:30 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-3.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:30 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-4.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:30 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-7.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:30 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-5.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:30 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-8.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:30 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-6.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 09:29:30 --> Undefined offset: 0
+#0 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(119): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', '/home/a2r9jiz6d...', 119, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->product_detail('assets', 'imgs', 'shop', 'thumbnail-9.jpg')
+#2 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#3 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-21 10:55:52 --> file_get_contents(/home/a2r9jiz6dv0x/public_html/writable/debugbar/debugbar_1661054203.json): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/a2r9jiz6d...', 80, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar/Collectors/History.php(80): file_get_contents('/home/a2r9jiz6d...')
+#2 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1661059480, 20)
+#3 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/a2r9jiz6dv0x/public_html/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/a2r9jiz6dv0x/public_html/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-08-21 10:55:52 --> file_get_contents(/home/a2r9jiz6dv0x/public_html/writable/debugbar/debugbar_1661054203.json): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', '/home/a2r9jiz6d...', 80, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar/Collectors/History.php(80): file_get_contents('/home/a2r9jiz6d...')
+#2 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(487): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1661059487, 20)
+#3 /home/a2r9jiz6dv0x/public_html/system/Debug/Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 /home/a2r9jiz6dv0x/public_html/app/Config/Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 /home/a2r9jiz6dv0x/public_html/system/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(302): CodeIgniter\Events\Events::trigger('pre_system')
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,377 @@
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:20 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:20 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:21 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:21 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-09 21:13:20 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-09 21:13:21 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:21 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:21 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:22 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:22 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:22 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-09 21:13:21 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:22 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-09 21:13:20 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-09 21:13:21 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:20 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:23 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:35 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+ERROR - 2023-12-09 21:13:35 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+ERROR - 2023-12-09 21:13:35 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+ERROR - 2023-12-09 21:13:35 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:36 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:35 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:36 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-09 21:13:36 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-09 21:13:36 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:35 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+ERROR - 2023-12-09 21:13:35 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:36 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-09 21:13:38 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:35 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:38 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-12-09 21:13:38 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2023-12-09 21:13:40 --> Error connecting to the database: User **** already has more than 'max_user_connections' active connections
+CRITICAL - 2023-12-09 21:13:40 --> Unable to connect to the database.
+Main connection [MySQLi]: User **** already has more than 'max_user_connections' active connections
+#0 /home/a2r9jiz6dv0x/public_html/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/a2r9jiz6dv0x/public_html/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /home/a2r9jiz6dv0x/public_html/app/Models/CrudModel.php(121): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/a2r9jiz6dv0x/public_html/app/Libraries/MenuTree.php(42): App\Models\CrudModel->getAnyItems(Array)
+#4 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(77): App\Libraries\MenuTree->get_categories()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(802): App\Controllers\Product->__construct()
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

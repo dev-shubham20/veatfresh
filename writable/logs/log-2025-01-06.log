@@ -1,0 +1,22 @@
+CRITICAL - 2025-01-06 00:38:19 --> Invalid argument supplied for foreach()
+#0 /home/a2r9jiz6dv0x/public_html/app/Views/category.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/home/a2r9jiz6d...', 130, Array)
+#1 /home/a2r9jiz6dv0x/public_html/system/View/View.php(210): include('/home/a2r9jiz6d...')
+#2 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('category', Array, true)
+#4 /home/a2r9jiz6dv0x/public_html/app/Helpers/render_helper.php(10): view('category', Array, Array)
+#5 /home/a2r9jiz6dv0x/public_html/app/Controllers/Product.php(233): render_frontend('category', Array)
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Product->products_by_category('MXY4cjhsTGNTYnh...')
+#7 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Product))
+#8 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2025-01-06 01:28:09 --> syntax error, unexpected '>'
+#0 /home/a2r9jiz6dv0x/public_html/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/a2r9jiz6dv0x/public_html/system/Common.php(1089): CodeIgniter\View\View->render('home', Array, true)
+#2 /home/a2r9jiz6dv0x/public_html/app/Helpers/render_helper.php(10): view('home', Array, Array)
+#3 /home/a2r9jiz6dv0x/public_html/app/Controllers/Home.php(125): render_frontend('home', Array)
+#4 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#5 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 /home/a2r9jiz6dv0x/public_html/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /home/a2r9jiz6dv0x/public_html/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

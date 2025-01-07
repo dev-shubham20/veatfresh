@@ -1,0 +1,16 @@
+CRITICAL - 2022-04-21 22:58:06 --> Undefined index: user_login
+#0 /home3/kronicke/public_html/veatfresh/app/Views/includes/navbar.php(223): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/home3/kronicke...', 223, Array)
+#1 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#2 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('includes/navbar', Array, true)
+#4 /home3/kronicke/public_html/veatfresh/app/Views/includes/layout.php(12): view('includes/navbar')
+#5 /home3/kronicke/public_html/veatfresh/system/View/View.php(210): include('/home3/kronicke...')
+#6 /home3/kronicke/public_html/veatfresh/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 /home3/kronicke/public_html/veatfresh/system/Common.php(1089): CodeIgniter\View\View->render('includes/layout', Array, true)
+#8 /home3/kronicke/public_html/veatfresh/app/Helpers/render_helper.php(8): view('includes/layout', Array, Array)
+#9 /home3/kronicke/public_html/veatfresh/app/Controllers/Home.php(89): render_frontend('home', Array)
+#10 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(825): App\Controllers\Home->index()
+#11 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#12 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}

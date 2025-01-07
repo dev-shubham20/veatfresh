@@ -1,0 +1,7 @@
+CRITICAL - 2022-04-28 18:30:55 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /home3/kronicke/public_html/veatfresh/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute('AjaxController/...')
+#1 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(719): CodeIgniter\Router\Router->handle('AjaxController/...')
+#2 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /home3/kronicke/public_html/veatfresh/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /home3/kronicke/public_html/veatfresh/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
